@@ -12,7 +12,7 @@ CPU: Intel i7-10750H (Comet Lake)
 
 iGPU: Intel UHD Graphics 630
 
-Dedicated GPU: GTX 1650 (disabled with -wegnoegpu)
+Dedicated GPU: GTX 1650 (disabled with `-wegnoegpu`)
 
 Wi-Fi: Intel Wi-Fi 6 AX201
 
@@ -24,6 +24,14 @@ Audio: Realtek ALC235
 
 ## Fixes / important notes
 
+### (FIX) Black screen for 3 minutes after boot
+
+Add `-igfxbr` in your boot-args
+
+### Webcam
+
 Make sure your webcam is ON while using USBToolBox tool, or you won't be able to use your webcam on macOS.
 
-Use alcid=29 in order for audio to work the best (works with internal speaker as well)
+### AppleALC layout / ALCID
+
+Use `alcid=29` in order for audio to work the best (works with internal speaker as well)
