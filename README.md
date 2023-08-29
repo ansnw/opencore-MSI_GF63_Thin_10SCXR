@@ -21,3 +21,9 @@ Bluetooth: Intel Wireless Bluetooth
 Ethernet: Realtek PCIe GbE Family Controller
 
 Audio: Realtek ALC235
+
+## Fixes / important notes
+
+Make sure your webcam is ON while using USBToolBox tool, or you won't be able to use your webcam on macOS.
+
+Use alcid=29 in order for audio to work the best (works with internal speaker as well)
