@@ -28,10 +28,16 @@ Audio: Realtek ALC235
 
 Add `-igfxblr` in your boot-args
 
+### AppleALC layout / ALCID
+
+Use `alcid=29` in order for audio to work the best (works with internal speaker as well)
+
+### Bluetooth for macOS Monterey (12) or higher
+
+Please read this: https://openintelwireless.github.io/IntelBluetoothFirmware/FAQ.html#what-additional-steps-should-i-do-to-make-bluetooth-work-on-macos-monterey-and-newer
+
 ### Webcam
 
 Make sure your webcam is ON while using USBToolBox tool, or you won't be able to use your webcam on macOS.
 
-### AppleALC layout / ALCID
 
-Use `alcid=29` in order for audio to work the best (works with internal speaker as well)
