@@ -26,7 +26,7 @@ Audio: Realtek ALC235
 
 ### (FIX) Black screen for 3 minutes after boot
 
-Add `-igfxbr` in your boot-args
+Add `-igfxblr` in your boot-args
 
 ### Webcam
 
