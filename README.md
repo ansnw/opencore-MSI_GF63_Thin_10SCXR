@@ -4,6 +4,7 @@ Built for macOS Ventura (13.5.1, but should work on other versions of Ventura)
 
 Official laptop link: https://www.msi.com/Laptop/GF63-Thin-10SCXR/Specification
 
+Used OpenCore 0.9.4 RELEASE version
 
 
 ## Useful specs:
