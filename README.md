@@ -29,6 +29,9 @@ Audio: Realtek ALC235
 
 Add `-igfxblr` in your boot-args
 
+### SMBIOS
+I use `MacBookPro16,1`
+
 ### AppleALC layout / ALCID
 
 Use `alcid=29` in order for audio to work the best (works with internal speaker as well)
